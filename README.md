@@ -1,5 +1,5 @@
 # ScienceEventBadge
-This repository in set up process. It will finally provide all hardware design files (KiCad) for the ScienceEventBadge. The PCB design was originally created in 2025 for the "Jugend-forscht" state competition in Saxony-Anhalt in 2026.
+This repository is still "under constructionion". It will finally provide all hardware design files (KiCad) for the ScienceEventBadge. The PCB design was originally created in 2025 for the "Jugend-forscht" state competition in Saxony-Anhalt in 2026.
 
 ## Hardware Description
 - Main controller: ESP32-C6 (WiFi, BLE, ZigBee, Thread, Matter)
@@ -11,11 +11,13 @@ This repository in set up process. It will finally provide all hardware design f
   - Light sensor (LDR)
   - LIS2DH12 - Accellerometer
 - Data logging features:
-  - highly-precise RTC module with backup battery
-  - 4MB on-board flash memory
+  - RV-3028-C7 - RTC module with backup battery
+  - 4MB on-board flash memory (part of the 8MB ESP32 flash)
   - µSD-card slot
 - Power supply
-  - CR123A 3V Lithium battery
+  - low power buck-boost converter
+  - CR123A 3V Lithium battery,
+  - Battery connector (1.6-5.5V)
   - or USB-C
  
 ## Hardware Images
