@@ -8,7 +8,8 @@ This repository in set up process. It will finally provide all hardware design f
   - AHT20 - temperature and humidity
   - BMP388 - barametric pressure
   - SGP-40 - VOC-index (air quality) 
-  - Light sensor (LDR)  - 
+  - Light sensor (LDR)
+  - LIS2DH12 - Accellerometer
 - Data logging features:
   - highly-precise RTC module with backup battery
   - 4MB on-board flash memory
